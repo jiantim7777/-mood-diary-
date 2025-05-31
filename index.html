@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>心情日記本</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 心情日記本</h1>
+    <div id="greeting" class="greeting"></div>
+    <p>寫下你的心情，我會傾聽。</p>
+
+    <textarea id="moodInput" placeholder="今天的心情如何呢？"></textarea>
+    <button onclick="respondMood()">送出</button>
+
+    <div id="response" class="response"></div>
+    <div id="visitCount" class="visit"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
