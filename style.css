@@ -1,0 +1,57 @@
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #81d4fa;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.response {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #4a90e2;
+}
+
+.visit {
+  margin-top: 20px;
+  font-size: 0.95em;
+  color: #666;
+}
+
+.greeting {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #388e3c;
+  font-weight: bold;
+}
